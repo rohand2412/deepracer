@@ -1,0 +1,20 @@
+**/.ipynb_checkpoints
+**/.DS_Store
+**/__pycache__
+**/.github
+
+*/Logs-*/output.tar.gz
+*/Logs-*/model.tar.gz
+*/Logs-*/source
+*/Logs-*/model
+*/Logs-*/mp4/camera-45degree
+
+aws-deepracer-workshops/*
+!aws-deepracer-workshops/log-analysis
+aws-deepracer-workshops/log-analysis/*
+!aws-deepracer-workshops/log-analysis/DeepRacer Log Analysis.ipynb
+!aws-deepracer-workshops/log-analysis/log_analysis.py
+
+deepracer-k1999-race-lines/assets/
+deepracer-k1999-race-lines/LICENSE
+deepracer-k1999-race-lines/README.md
