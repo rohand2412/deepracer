@@ -65,5 +65,8 @@ def main():
     remove("Logs-{}/model.tar.gz".format(model_name))
     remove("Logs-{}/model.tar.gz-extracted/agent".format(model_name))
 
+    os.mkdir("Logs-{}/model")
+    shutil.copy2("Logs-{}/model.tar.gz-extracted/model_metadata.json".format(model_name), "Logs-{}/model".format(model_name))
+
 if __name__ == '__main__':
     main()
