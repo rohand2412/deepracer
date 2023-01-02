@@ -1,0 +1,39 @@
+---
+'AWS_REGION': 'us-east-1'
+'BODY_SHELL_TYPE':
+- 'deepracer'
+'CAR_COLOR':
+- 'Red'
+'COLLISION_PENALTY': '5.0'
+'DISPLAY_NAME':
+- 'FastCar'
+'ENABLE_DOMAIN_RANDOMIZATION': 'False'
+'EVAL_CHECKPOINT': 'last'
+'IS_CONTINUOUS': 'True'
+'JOB_TYPE': 'EVALUATION'
+'KINESIS_VIDEO_STREAM_NAME': ''
+'METRICS_S3_BUCKET':
+- 'deepracer-bucket-4212'
+'METRICS_S3_OBJECT_KEY':
+- 'Milestone-NoCrash-EmptyBucket-6Hours/metrics/EvaluationMetrics-20230102131937.json'
+'MODEL_S3_BUCKET':
+- 'deepracer-bucket-4212'
+'MODEL_S3_PREFIX':
+- 'Milestone-NoCrash-EmptyBucket-6Hours'
+'MP4_S3_BUCKET':
+- 'deepracer-bucket-4212'
+'MP4_S3_OBJECT_PREFIX':
+- 'Milestone-NoCrash-EmptyBucket-6Hours/mp4'
+'NUMBER_OF_RESETS': '100'
+'NUMBER_OF_TRIALS': '3'
+'OFF_TRACK_PENALTY': '3.0'
+'RACER_NAME':
+- 'FastCar'
+'RACE_TYPE': 'TIME_TRIAL'
+'RESET_BEHIND_DIST': '1.0'
+'ROBOMAKER_SIMULATION_JOB_ACCOUNT_ID': 'Dummy'
+'SIMTRACE_S3_BUCKET':
+- 'deepracer-bucket-4212'
+'SIMTRACE_S3_PREFIX':
+- 'Milestone-NoCrash-EmptyBucket-6Hours/evaluation-20230102131937'
+'WORLD_NAME': '2022_september_open'
