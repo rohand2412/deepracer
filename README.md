@@ -23,4 +23,4 @@ The listed files and folders were incorporated from the following linked reposit
 
 + [Aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 
-    + aws-deepracer-workshops
+    + aws-deepracer-workshops/log-analysis
